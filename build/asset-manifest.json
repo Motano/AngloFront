@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7cd5f804.chunk.css",
+    "main.js": "/static/js/main.be628cc8.chunk.js",
+    "main.js.map": "/static/js/main.be628cc8.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.5c61ba3d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.5c61ba3d.js.map",
+    "static/css/2.75535427.chunk.css": "/static/css/2.75535427.chunk.css",
+    "static/js/2.1c888d1b.chunk.js": "/static/js/2.1c888d1b.chunk.js",
+    "static/js/2.1c888d1b.chunk.js.map": "/static/js/2.1c888d1b.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.75535427.chunk.css.map": "/static/css/2.75535427.chunk.css.map",
+    "static/css/main.7cd5f804.chunk.css.map": "/static/css/main.7cd5f804.chunk.css.map",
+    "static/js/2.1c888d1b.chunk.js.LICENSE.txt": "/static/js/2.1c888d1b.chunk.js.LICENSE.txt",
+    "static/media/all.min.css": "/static/media/fa-solid-900.f4f93856.woff",
+    "static/media/fondo-piano.208d7cf8.jpg": "/static/media/fondo-piano.208d7cf8.jpg",
+    "static/media/light-bootstrap-dashboard-react.scss?v=2.0.0": "/static/media/nucleo-icons.a30d0b02.ttf",
+    "static/media/reactlogo.55f6660b.png": "/static/media/reactlogo.55f6660b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5c61ba3d.js",
+    "static/css/2.75535427.chunk.css",
+    "static/js/2.1c888d1b.chunk.js",
+    "static/css/main.7cd5f804.chunk.css",
+    "static/js/main.be628cc8.chunk.js"
+  ]
+}

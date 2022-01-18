@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+
+:root {
+  --blackRP: #1d1c1c;
+  --yellowRP: #b38c4b;
+  --grisRP: #8c8c8c;
+  --blancoRP: #d6d5d6;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* estilos para el tamaño del texto */
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+@media (max-width: 576px) {
+  .text-xl {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}
+
+/* estilos para botones personalizados */
+.btn-i:hover{
+  color: black;
+}
+.btn-cantidad {
+  border: 2px solid #888888;
+  color: #888888;
+  background: white;
+  padding: 4px 12px;
+  font-size: 12px;
+}
+
+.btn-blue{
+  background-color:  #29166f;
+}
+
+.btn-outline-gray {
+  border: 2px solid #888888;
+  color: #888888;
+  background: white;
+  border-radius: 0.2rem;
+  padding: 4px 12px;
+  font-size: 12px;
+}
+
+.btn-outline-gray:hover {
+  background: #888888;
+  color: black;
+}
+
+.btn-outline-black {
+  border: 2px solid #1d1c1c;
+  color: black;
+  background: #1d1c1c;
+  border-radius: 0.2rem;
+  padding: 4px 12px;
+  font-size: 12px;
+}
+
+.btn-outline-black:hover {
+  background: #1d1c1c;
+  color: black;
+}
+
+/* Estilos para texto personalizado */
+
+.font-angloAmerican {
+  font-family: "Roboto",cursive;
+  font-weight: bold;
+}
+
+.text-yellow {
+  color: var(--yellowRP);
+}
+.text-blue{
+  color :  #29166f;
+}
+
+/* Animaciones? */
+.fade-in {
+  -webkit-animation: fadein 0.5s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 0.5s; /* Firefox < 16 */
+  -ms-animation: fadein 0.5s; /* Internet Explorer */
+  -o-animation: fadein 0.5s; /* Opera < 12.1 */
+  animation: fadein 0.5s;
+}
+
+.fade-out {
+  -webkit-animation: fadeout 0.5s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadeout 0.5s; /* Firefox < 16 */
+  -ms-animation: fadeout 0.5s; /* Internet Explorer */
+  -o-animation: fadeout 0.5s; /* Opera < 12.1 */
+  animation: fadeout 0.5s;
+}
+
+.fondo-blur{
+  position: relative;
+  overflow: hidden;
+}
+
+.fondo-blur::before{
+  content: '';
+  display: block;
+  background: inherit;
+  position: absolute;
+  width: 100%; height: 100%;
+  left: 0; top: 0;
+  filter: blur(8px);
+  transform: scale(1.2,1.4);
+}
+
+.fondoAnglo{
+  background-image: url(../img/angloFondo.jpg) ;
+            /* Full height */
+            height: 100%;
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+  width: 100%;
+  
+}
+.table th {
+  text-align: center;   
+}
+
+.cardTitleWhite {
+  color: #FFFFFF;
+  margin-top: 0px;
+  min-height: auto;
+  font-weight: 300;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  margin-bottom: 3px;
+  text-decoration: none;
+}
+
+
+.cardCategoryWhite{
+
+  color: rgba(255,255,255,.62);
+  font-size: 14px;
+  margin-top: 0;
+  margin-Bottom: 0;
+}
+
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeout {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
